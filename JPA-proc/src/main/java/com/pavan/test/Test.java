@@ -16,8 +16,8 @@ public class Test {
 
 		    UserManager userManager = (UserManager) ctx.getBean("userManagerImpl");
 
-		    List<User> list = userManager.findAllUsers();
-		    System.out.println("User count: " + list.size());
+		  //  List<User> list = userManager.findAllUsers();
+		   // System.out.println("User count: " + list.size());
 
 		    User user = new User();
 		    user.setUsername("johndoe2");

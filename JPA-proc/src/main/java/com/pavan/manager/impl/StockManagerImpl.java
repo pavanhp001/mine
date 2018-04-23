@@ -26,5 +26,10 @@ public class StockManagerImpl implements StockManager {
 	public List<Stock> findAllStocks() {
 		return stockDao.findAllStock();
 	}
+	
+	@Transactional
+	public List<Stock> findStockData(Integer answerId) {
+		return stockDao.findStockData(answerId);
+	}
 
 }

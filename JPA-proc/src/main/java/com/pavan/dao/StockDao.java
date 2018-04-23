@@ -9,5 +9,7 @@ public interface StockDao {
 	void insertStock(Stock stock);
 
 	List<Stock> findAllStock();
+	
+	List<Stock> findStockData(Integer answerId);
 
 }

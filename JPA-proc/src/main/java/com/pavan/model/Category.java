@@ -4,6 +4,7 @@ import java.io.Serializable;
 import java.util.HashSet;
 import java.util.Set;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
@@ -66,7 +67,7 @@ public class Category implements Serializable {
 		this.desc = desc;
 	}
 
-	@ManyToMany(fetch = FetchType.LAZY, mappedBy = "categories")
+	@ManyToMany(fetch = FetchType.LAZY, mappedBy = "categories",cascade = { CascadeType.PERSIST, CascadeType.MERGE })
 	public Set<Stock> getStocks() {
 		return this.stocks;
 	}
