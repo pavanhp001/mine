@@ -24,3 +24,40 @@ CREATE TABLE  `stock_category` (
   CONSTRAINT `FK_CATEGORY_ID` FOREIGN KEY (`CATEGORY_ID`) REFERENCES `category` (`CATEGORY_ID`),
   CONSTRAINT `FK_STOCK_ID` FOREIGN KEY (`STOCK_ID`) REFERENCES `stock` (`STOCK_ID`)
 )
+==================
+CREATE TABLE `id_gen` (
+	`gen_name` VARCHAR(45) NOT NULL,
+	`gen_val` VARCHAR(45) NULL DEFAULT NULL,
+	PRIMARY KEY (`gen_name`)
+)
+COLLATE='utf8_general_ci'
+ENGINE=InnoDB;
+
+CREATE TABLE `desk_gen` (
+	`gen_name` VARCHAR(45) NOT NULL,
+	`gen_value` VARCHAR(45) NULL DEFAULT NULL,
+	PRIMARY KEY (`gen_name`)
+)
+COLLATE='utf8_general_ci'
+ENGINE=InnoDB;
+
+CREATE TABLE `employee` (
+	`idemployee` INT(11) NOT NULL,
+	`firstname` VARCHAR(45) NULL DEFAULT NULL,
+	`lastname` VARCHAR(45) NULL DEFAULT NULL,
+	`email` VARCHAR(45) NULL DEFAULT NULL,
+	`iddesk` INT(11) NULL DEFAULT NULL,
+	`iddepartment` INT(11) NULL DEFAULT NULL,
+	PRIMARY KEY (`idemployee`)
+)
+COLLATE='utf8_general_ci'
+ENGINE=InnoDB;
+
+CREATE TABLE `desk` (
+	`iddesk` INT(11) NOT NULL,
+	`number` VARCHAR(45) NULL DEFAULT NULL,
+	`location` VARCHAR(45) NULL DEFAULT NULL,
+	PRIMARY KEY (`iddesk`)
+)
+COLLATE='utf8_general_ci'
+ENGINE=InnoDB;
