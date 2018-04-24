@@ -10,12 +10,14 @@
     <provider>org.hibernate.ejb.HibernatePersistence</provider>  <!-- Should be the first statment  -->
     <non-jta-data-source>transactionalDatasource</non-jta-data-source>
     <class>com.pavan.model.User</class>
-     <class>com.pavan.model.Stock</class>
+    <class>com.pavan.model.Stock</class>
     <class>com.pavan.model.Category</class> 
+    <class>com.pavan.O2O.Employee</class>
+    <class>com.pavan.O2O.Desk</class>
     <properties>
     
 			<!-- <property name="hibernate.cache.provider_class" value="net.sf.ehcache.hibernate.SingletonEhCacheProvider" /> -->
-		<!-- 	<property name="hibernate.cache.use_second_level_cache" value="true" /> -->
+			<!-- <property name="hibernate.cache.use_second_level_cache" value="true" /> -->
 			<property name="hibernate.mapping.precedence" value="class" />
 			<!-- <property name="net.sf.ehcache.configurationResourceName" value="/ehcache.xml" /> -->
 			<!-- <property name="hibernate.cache.use_query_cache" value="true" /> -->

@@ -23,15 +23,15 @@ import com.pavan.model.Stock_;
 @Repository
 public class StockDaoImpl implements StockDao {
 	
-	@PersistenceContext
+	  @PersistenceContext
 	  private EntityManager entityManager;
 
-	 // @Override
+	  // @Override
 	  public void insertStock(Stock stock) {
 	    entityManager.persist(stock);
 	  }
 
-	 // @Override
+	  // @Override
 	  public List<Stock> findAllStock() {
 	    CriteriaBuilder builder = entityManager.getCriteriaBuilder();
 	    CriteriaQuery<Stock> cq = builder.createQuery(Stock.class);

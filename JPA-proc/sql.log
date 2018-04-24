@@ -1,0 +1,195 @@
+2018-04-24 18:11:01,044 [main] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'testPU'
+2018-04-24 18:11:01,588 [main] DEBUG org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2018-04-24 18:11:01,618 [main] DEBUG org.springframework.orm.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+2018-04-24 18:29:02,354 [main] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'testPU'
+2018-04-24 18:29:02,909 [main] DEBUG org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2018-04-24 18:29:02,940 [main] DEBUG org.springframework.orm.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+2018-04-24 18:29:46,492 [main] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'testPU'
+2018-04-24 18:29:47,064 [main] DEBUG org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2018-04-24 18:29:47,102 [main] DEBUG org.springframework.orm.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+2018-04-24 18:30:49,098 [main] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'testPU'
+2018-04-24 18:30:49,630 [main] DEBUG org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2018-04-24 18:30:49,660 [main] DEBUG org.springframework.orm.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+2018-04-24 18:32:42,569 [main] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'testPU'
+2018-04-24 18:32:43,290 [main] DEBUG org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2018-04-24 18:32:43,332 [main] DEBUG org.springframework.orm.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+2018-04-24 18:34:15,204 [main] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'testPU'
+2018-04-24 18:34:15,784 [main] DEBUG org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2018-04-24 18:34:15,819 [main] DEBUG org.springframework.orm.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+2018-04-24 18:39:42,316 [main] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'testPU'
+2018-04-24 18:39:42,898 [main] DEBUG org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2018-04-24 18:39:42,934 [main] DEBUG org.springframework.orm.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+2018-04-24 18:40:44,700 [main] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'testPU'
+2018-04-24 18:40:45,287 [main] DEBUG org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2018-04-24 18:40:45,319 [main] DEBUG org.hibernate.SQL - 
+    select
+        desk_.iddesk,
+        desk_.location as location4_,
+        desk_.number as number4_ 
+    from
+        desk desk_ 
+    where
+        desk_.iddesk=?
+2018-04-24 18:40:45,413 [main] DEBUG org.springframework.orm.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+2018-04-24 18:42:28,951 [main] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'testPU'
+2018-04-24 18:42:29,544 [main] DEBUG org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2018-04-24 18:42:29,599 [main] DEBUG org.springframework.orm.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+2018-04-24 18:45:51,308 [main] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'testPU'
+2018-04-24 18:45:52,017 [main] DEBUG org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2018-04-24 18:45:52,046 [main] DEBUG org.springframework.orm.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+2018-04-24 18:46:26,365 [main] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'testPU'
+2018-04-24 18:46:27,020 [main] DEBUG org.springframework.orm.jpa.JpaTransactionManager - Creating new transaction with name [com.pavan.O2O.O2ODao.insertEmployee]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+2018-04-24 18:46:27,043 [main] DEBUG org.springframework.orm.jpa.JpaTransactionManager - Opened new EntityManager [org.hibernate.ejb.EntityManagerImpl@5e81e5ac] for JPA transaction
+2018-04-24 18:46:27,105 [main] DEBUG org.springframework.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC transaction [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@3b7ff809]
+2018-04-24 18:46:27,117 [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        employee
+        (iddesk, email, firstname, lastname) 
+    values
+        (?, ?, ?, ?)
+2018-04-24 18:46:27,246 [main] DEBUG org.springframework.orm.jpa.JpaTransactionManager - Initiating transaction rollback
+2018-04-24 18:46:27,246 [main] DEBUG org.springframework.orm.jpa.JpaTransactionManager - Rolling back JPA transaction on EntityManager [org.hibernate.ejb.EntityManagerImpl@5e81e5ac]
+2018-04-24 18:46:27,249 [main] DEBUG org.springframework.orm.jpa.JpaTransactionManager - Closing JPA EntityManager [org.hibernate.ejb.EntityManagerImpl@5e81e5ac] after transaction
+2018-04-24 18:46:27,249 [main] DEBUG org.springframework.orm.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+2018-04-24 18:55:07,141 [main] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'testPU'
+2018-04-24 18:55:07,784 [main] DEBUG org.springframework.orm.jpa.JpaTransactionManager - Creating new transaction with name [com.pavan.O2O.O2ODao.insertEmployee]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+2018-04-24 18:55:07,805 [main] DEBUG org.springframework.orm.jpa.JpaTransactionManager - Opened new EntityManager [org.hibernate.ejb.EntityManagerImpl@6f0b0a5e] for JPA transaction
+2018-04-24 18:55:07,808 [main] DEBUG org.springframework.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC transaction [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@7b8233cd]
+2018-04-24 18:55:07,833 [main] DEBUG org.hibernate.SQL - null
+2018-04-24 18:55:07,883 [main] DEBUG org.springframework.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2018-04-24 18:55:07,883 [main] DEBUG org.springframework.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [org.hibernate.ejb.EntityManagerImpl@6f0b0a5e]
+2018-04-24 18:55:07,887 [main] DEBUG org.springframework.orm.jpa.JpaTransactionManager - Initiating transaction rollback after commit exception
+org.springframework.dao.InvalidDataAccessApiUsageException: org.hibernate.TransientObjectException: object references an unsaved transient instance - save the transient instance before flushing: com.pavan.O2O.Employee.desk -> com.pavan.O2O.Desk; nested exception is java.lang.IllegalStateException: org.hibernate.TransientObjectException: object references an unsaved transient instance - save the transient instance before flushing: com.pavan.O2O.Employee.desk -> com.pavan.O2O.Desk
+	at org.springframework.orm.jpa.EntityManagerFactoryUtils.convertJpaAccessExceptionIfPossible(EntityManagerFactoryUtils.java:298)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:106)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:516)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:754)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:723)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:393)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:120)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.framework.Cglib2AopProxy$DynamicAdvisedInterceptor.intercept(Cglib2AopProxy.java:622)
+	at com.pavan.O2O.O2ODao$$EnhancerByCGLIB$$cdbdd5cb.insertEmployee(<generated>)
+	at com.pavan.O2O.O2OMain.main(O2OMain.java:50)
+Caused by: java.lang.IllegalStateException: org.hibernate.TransientObjectException: object references an unsaved transient instance - save the transient instance before flushing: com.pavan.O2O.Employee.desk -> com.pavan.O2O.Desk
+	at org.hibernate.ejb.AbstractEntityManagerImpl.convert(AbstractEntityManagerImpl.java:1232)
+	at org.hibernate.ejb.AbstractEntityManagerImpl.convert(AbstractEntityManagerImpl.java:1168)
+	at org.hibernate.ejb.TransactionImpl.commit(TransactionImpl.java:81)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:512)
+	... 8 more
+Caused by: org.hibernate.TransientObjectException: object references an unsaved transient instance - save the transient instance before flushing: com.pavan.O2O.Employee.desk -> com.pavan.O2O.Desk
+	at org.hibernate.engine.CascadingAction$9.noCascade(CascadingAction.java:387)
+	at org.hibernate.engine.Cascade.cascade(Cascade.java:172)
+	at org.hibernate.event.def.AbstractFlushingEventListener.cascadeOnFlush(AbstractFlushingEventListener.java:154)
+	at org.hibernate.event.def.AbstractFlushingEventListener.prepareEntityFlushes(AbstractFlushingEventListener.java:145)
+	at org.hibernate.event.def.AbstractFlushingEventListener.flushEverythingToExecutions(AbstractFlushingEventListener.java:88)
+	at org.hibernate.event.def.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:50)
+	at org.hibernate.impl.SessionImpl.flush(SessionImpl.java:1206)
+	at org.hibernate.impl.SessionImpl.managedFlush(SessionImpl.java:375)
+	at org.hibernate.transaction.JDBCTransaction.commit(JDBCTransaction.java:137)
+	at org.hibernate.ejb.TransactionImpl.commit(TransactionImpl.java:76)
+	... 9 more
+2018-04-24 18:55:07,888 [main] DEBUG org.springframework.orm.jpa.JpaTransactionManager - Rolling back JPA transaction on EntityManager [org.hibernate.ejb.EntityManagerImpl@6f0b0a5e]
+2018-04-24 18:55:07,888 [main] DEBUG org.springframework.orm.jpa.JpaTransactionManager - Closing JPA EntityManager [org.hibernate.ejb.EntityManagerImpl@6f0b0a5e] after transaction
+2018-04-24 18:55:07,888 [main] DEBUG org.springframework.orm.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+2018-04-24 18:56:50,291 [main] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'testPU'
+2018-04-24 18:56:50,998 [main] DEBUG org.springframework.orm.jpa.JpaTransactionManager - Creating new transaction with name [com.pavan.O2O.O2ODao.insertEmployee]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+2018-04-24 18:56:51,028 [main] DEBUG org.springframework.orm.jpa.JpaTransactionManager - Opened new EntityManager [org.hibernate.ejb.EntityManagerImpl@7516e4e5] for JPA transaction
+2018-04-24 18:56:51,031 [main] DEBUG org.springframework.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC transaction [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@36f48b4]
+2018-04-24 18:56:51,056 [main] DEBUG org.hibernate.SQL - null
+2018-04-24 18:56:51,125 [main] DEBUG org.springframework.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2018-04-24 18:56:51,125 [main] DEBUG org.springframework.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [org.hibernate.ejb.EntityManagerImpl@7516e4e5]
+2018-04-24 18:56:51,129 [main] DEBUG org.springframework.orm.jpa.JpaTransactionManager - Initiating transaction rollback after commit exception
+org.springframework.dao.InvalidDataAccessApiUsageException: org.hibernate.TransientObjectException: object references an unsaved transient instance - save the transient instance before flushing: com.pavan.O2O.Employee.desk -> com.pavan.O2O.Desk; nested exception is java.lang.IllegalStateException: org.hibernate.TransientObjectException: object references an unsaved transient instance - save the transient instance before flushing: com.pavan.O2O.Employee.desk -> com.pavan.O2O.Desk
+	at org.springframework.orm.jpa.EntityManagerFactoryUtils.convertJpaAccessExceptionIfPossible(EntityManagerFactoryUtils.java:298)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:106)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:516)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:754)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:723)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:393)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:120)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.framework.Cglib2AopProxy$DynamicAdvisedInterceptor.intercept(Cglib2AopProxy.java:622)
+	at com.pavan.O2O.O2ODao$$EnhancerByCGLIB$$cdbdd5cb.insertEmployee(<generated>)
+	at com.pavan.O2O.O2OMain.main(O2OMain.java:50)
+Caused by: java.lang.IllegalStateException: org.hibernate.TransientObjectException: object references an unsaved transient instance - save the transient instance before flushing: com.pavan.O2O.Employee.desk -> com.pavan.O2O.Desk
+	at org.hibernate.ejb.AbstractEntityManagerImpl.convert(AbstractEntityManagerImpl.java:1232)
+	at org.hibernate.ejb.AbstractEntityManagerImpl.convert(AbstractEntityManagerImpl.java:1168)
+	at org.hibernate.ejb.TransactionImpl.commit(TransactionImpl.java:81)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:512)
+	... 8 more
+Caused by: org.hibernate.TransientObjectException: object references an unsaved transient instance - save the transient instance before flushing: com.pavan.O2O.Employee.desk -> com.pavan.O2O.Desk
+	at org.hibernate.engine.CascadingAction$9.noCascade(CascadingAction.java:387)
+	at org.hibernate.engine.Cascade.cascade(Cascade.java:172)
+	at org.hibernate.event.def.AbstractFlushingEventListener.cascadeOnFlush(AbstractFlushingEventListener.java:154)
+	at org.hibernate.event.def.AbstractFlushingEventListener.prepareEntityFlushes(AbstractFlushingEventListener.java:145)
+	at org.hibernate.event.def.AbstractFlushingEventListener.flushEverythingToExecutions(AbstractFlushingEventListener.java:88)
+	at org.hibernate.event.def.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:50)
+	at org.hibernate.impl.SessionImpl.flush(SessionImpl.java:1206)
+	at org.hibernate.impl.SessionImpl.managedFlush(SessionImpl.java:375)
+	at org.hibernate.transaction.JDBCTransaction.commit(JDBCTransaction.java:137)
+	at org.hibernate.ejb.TransactionImpl.commit(TransactionImpl.java:76)
+	... 9 more
+2018-04-24 18:56:51,130 [main] DEBUG org.springframework.orm.jpa.JpaTransactionManager - Rolling back JPA transaction on EntityManager [org.hibernate.ejb.EntityManagerImpl@7516e4e5]
+2018-04-24 18:56:51,130 [main] DEBUG org.springframework.orm.jpa.JpaTransactionManager - Closing JPA EntityManager [org.hibernate.ejb.EntityManagerImpl@7516e4e5] after transaction
+2018-04-24 18:56:51,130 [main] DEBUG org.springframework.orm.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+2018-04-24 19:02:08,765 [main] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'testPU'
+2018-04-24 19:02:09,442 [main] DEBUG org.springframework.orm.jpa.JpaTransactionManager - Creating new transaction with name [com.pavan.O2O.O2ODao.insertEmployee]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+2018-04-24 19:02:09,466 [main] DEBUG org.springframework.orm.jpa.JpaTransactionManager - Opened new EntityManager [org.hibernate.ejb.EntityManagerImpl@1021f6c9] for JPA transaction
+2018-04-24 19:02:09,469 [main] DEBUG org.springframework.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC transaction [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@aa549e5]
+2018-04-24 19:02:09,493 [main] DEBUG org.hibernate.SQL - null
+2018-04-24 19:02:09,536 [main] DEBUG org.hibernate.SQL - null
+2018-04-24 19:02:09,552 [main] DEBUG org.springframework.orm.jpa.JpaTransactionManager - Initiating transaction rollback
+2018-04-24 19:02:09,552 [main] DEBUG org.springframework.orm.jpa.JpaTransactionManager - Rolling back JPA transaction on EntityManager [org.hibernate.ejb.EntityManagerImpl@1021f6c9]
+2018-04-24 19:02:09,555 [main] DEBUG org.springframework.orm.jpa.JpaTransactionManager - Closing JPA EntityManager [org.hibernate.ejb.EntityManagerImpl@1021f6c9] after transaction
+2018-04-24 19:02:09,555 [main] DEBUG org.springframework.orm.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+2018-04-24 19:18:45,528 [main] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'testPU'
+2018-04-24 19:18:46,163 [main] DEBUG org.springframework.orm.jpa.JpaTransactionManager - Creating new transaction with name [com.pavan.O2O.O2ODao.insertEmployee]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+2018-04-24 19:18:46,186 [main] DEBUG org.springframework.orm.jpa.JpaTransactionManager - Opened new EntityManager [org.hibernate.ejb.EntityManagerImpl@7516e4e5] for JPA transaction
+2018-04-24 19:18:46,189 [main] DEBUG org.springframework.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC transaction [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@36f48b4]
+2018-04-24 19:18:46,208 [main] DEBUG org.hibernate.SQL - null
+2018-04-24 19:18:46,277 [main] DEBUG org.hibernate.SQL - null
+2018-04-24 19:18:46,311 [main] DEBUG org.hibernate.SQL - null
+2018-04-24 19:18:46,338 [main] DEBUG org.springframework.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2018-04-24 19:18:46,338 [main] DEBUG org.springframework.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [org.hibernate.ejb.EntityManagerImpl@7516e4e5]
+2018-04-24 19:18:46,343 [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        desk
+        (location, number, iddesk) 
+    values
+        (?, ?, ?)
+2018-04-24 19:18:46,344 [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        employee
+        (iddesk, email, firstname, lastname, idemployee) 
+    values
+        (?, ?, ?, ?, ?)
+2018-04-24 19:18:46,362 [main] DEBUG org.springframework.orm.jpa.JpaTransactionManager - Closing JPA EntityManager [org.hibernate.ejb.EntityManagerImpl@7516e4e5] after transaction
+2018-04-24 19:18:46,362 [main] DEBUG org.springframework.orm.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+2018-04-24 19:21:54,553 [main] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'testPU'
+2018-04-24 19:21:55,267 [main] DEBUG org.springframework.orm.jpa.JpaTransactionManager - Creating new transaction with name [com.pavan.O2O.O2ODao.insertEmployee]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+2018-04-24 19:21:55,291 [main] DEBUG org.springframework.orm.jpa.JpaTransactionManager - Opened new EntityManager [org.hibernate.ejb.EntityManagerImpl@7516e4e5] for JPA transaction
+2018-04-24 19:21:55,294 [main] DEBUG org.springframework.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC transaction [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@36f48b4]
+2018-04-24 19:21:55,314 [main] DEBUG org.hibernate.SQL - null
+2018-04-24 19:21:55,373 [main] DEBUG org.hibernate.SQL - null
+2018-04-24 19:21:55,400 [main] DEBUG org.springframework.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2018-04-24 19:21:55,400 [main] DEBUG org.springframework.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [org.hibernate.ejb.EntityManagerImpl@7516e4e5]
+2018-04-24 19:21:55,405 [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        desk
+        (location, number, iddesk) 
+    values
+        (?, ?, ?)
+2018-04-24 19:21:55,408 [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        employee
+        (iddesk, email, firstname, lastname, idemployee) 
+    values
+        (?, ?, ?, ?, ?)
+2018-04-24 19:21:55,429 [main] DEBUG org.springframework.orm.jpa.JpaTransactionManager - Closing JPA EntityManager [org.hibernate.ejb.EntityManagerImpl@7516e4e5] after transaction
+2018-04-24 19:21:55,429 [main] DEBUG org.springframework.orm.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
